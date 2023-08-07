@@ -1,5 +1,2 @@
 #!/bin/bash
-
-file="iacta"
-
-awk 'NR == 3 {print; exit}' "$file"
+head -3 iacta | tail -1
