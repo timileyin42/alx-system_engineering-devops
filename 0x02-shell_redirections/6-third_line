@@ -1,0 +1,5 @@
+#!/bin/bash
+
+file="iacta"
+
+awk 'NR == 3 {print; exit}' "$file"
